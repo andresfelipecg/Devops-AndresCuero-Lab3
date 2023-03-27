@@ -4,7 +4,7 @@ FROM maven:3.8.4-openjdk-11 AS build
 # Copy the project source code to the container
 COPY . /app
 
-# Set the working directory to the root of the project
+# Set the working directory to the root of theproject
 WORKDIR /app
 
 # Build the project using Maven
