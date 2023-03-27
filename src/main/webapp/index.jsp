@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Welcome to COMP367</title>
+	<title>Welcome to COMP367 - Andres Cuero</title>
 </head>
 <body>
 	<h1>Welcome to COMP367</h1>
