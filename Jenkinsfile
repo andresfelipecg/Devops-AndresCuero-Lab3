@@ -4,8 +4,8 @@ pipeline {
         maven 'maventool' // Name of the Maven tool as defined in Jenkins
     }
     environment {
-        DOCKERHUB_CREDENTIALS_USR = credentials('andresfelipecg')
-        DOCKERHUB_CREDENTIALS_PSW = credentials('docker-psw')
+         DOCKERHUB_CREDENTIALS_USR = credentials('my-docker-creds').username
+         DOCKERHUB_CREDENTIALS_PSW = credentials('my-docker-creds').password
     }
     stages {
         stage('Check out') {
